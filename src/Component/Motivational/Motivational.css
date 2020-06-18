@@ -1,0 +1,23 @@
+.clap{
+    border:0;
+}
+
+.clap span{
+    font-size: 30px;
+}
+
+.clap span:hover{
+    transform: scale(1.2);
+}
+
+.info{
+    color:rgb(68, 66, 66);
+    font-size: 20px;
+    position: relative;
+    top:-15px;
+    left:5px;
+}
+.moti{
+    display:flex;
+    float:left;
+}
