@@ -5,15 +5,8 @@ import img2 from '../../image/2.JPG';
 import img3 from '../../image/3.JPG';
 import img4 from '../../image/4.JPG';
 import Motivational from '../Motivational/Motivational';
-//import CardImage from '../Slideshow/CardImage';
 class Blog extends Component{
     render(){
-  /*      const images = [
-            'https://www.instagram.com/p/CBYH3eABzpR/?utm_source=ig_web_button_share_sheet',
-            'https://www.instagram.com/p/CAj_87BnWwc/?utm_source=ig_web_button_share_sheet',
-            'https://www.instagram.com/p/CAfY4vuHYrg/?utm_source=ig_web_button_share_sheet',
-            'https://www.instagram.com/p/CAC9qCGhN5Z/?utm_source=ig_web_button_share_sheet'
-          ];*/
         return(
             <div className="containerBlog">
                 <span className="title">Anti-fit and sustainable fashion wear infused with stories, love and creativity</span>
@@ -33,7 +26,5 @@ class Blog extends Component{
             </div>
         );
     }
-
-   
 }
 export default Blog;
