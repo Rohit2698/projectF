@@ -17,6 +17,20 @@
     left:5px;
 }
 .moti{
+    width:300px;
+    position: relative;
+    top:50px;
+}
+.motiva{
+    list-style-type: none;
     display:flex;
+    justify-content:space-evenly;
+}
+.motiva li{
     float:left;
+    list-style-type: none;
+    
+}
+@media screen and (max-width:700px){
+      
 }

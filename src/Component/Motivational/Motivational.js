@@ -41,15 +41,13 @@ class Motivational extends Component{
         
         return(
             <div className="moti">
-                <ul>
+                <ul class="motiva">
                     <li>
                         <div>
                             <button className="clap" onClick={this.incrementClap}><span>&#129330;</span></button>
                             <h1>{this.renderClap(this.state.claps)}</h1>
                         </div>
                     </li>
-                </ul>
-                <ul>
                     <li>
                         <div>
                             <button className="clap" onClick={this.incrementLike}><span> &#128077;</span></button>

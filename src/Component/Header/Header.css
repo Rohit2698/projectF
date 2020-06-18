@@ -24,14 +24,14 @@ a{
    
 }
 
-ul{
+.header{
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     width:200px;
     margin-top: 10px;
 }
-li{
+.header li{
     float: left;
 }
 

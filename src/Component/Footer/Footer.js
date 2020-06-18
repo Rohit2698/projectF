@@ -8,7 +8,7 @@ class Footer extends Component{
             <div className="containerFooter"> 
                 <div style={{width:'auto'}}>
                 <center><span>
-                    <ul>
+                    <ul className="header">
                         <li><a href="#" className="fa fa-facebook"></a></li>
                         <li><a href="#" className="fa fa-linkedin"></a></li>
                         <li><a href="#" className="fa fa-twitter"></a></li>
